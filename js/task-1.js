@@ -1,4 +1,4 @@
-function isEnooghCapaciy(products, containerSize) {
+function isEnoughCapacity(products, containerSize) {
   const quantities = Object.values(products);
   let totalQuantity = 0;
   for (const quantity of quantities) {
